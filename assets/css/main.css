@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(255, 253, 245);
+		background: rgb(255, 247, 242);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1817,7 +1817,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #ededed;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
