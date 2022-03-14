@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(245, 242, 232);
+		background: rgb(255, 253, 245);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
