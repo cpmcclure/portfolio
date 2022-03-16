@@ -118,10 +118,6 @@
 
 // Form Submission
 
-document
-  .querySelector("form")
-  .addEventListener("submit", handleSubmit);
-
 const handleSubmit = (e) => {
   e.preventDefault();
   let myForm = document.getElementById("contact");
@@ -134,3 +130,7 @@ const handleSubmit = (e) => {
     .then(() => console.log("Form successfully submitted"))
     .catch((error) => alert(error));
 };
+
+document
+  .querySelector("form")
+  .addEventListener("submit", handleSubmit);
