@@ -132,5 +132,5 @@ const handleSubmit = (e) => {
 };
 
 document
-  .querySelector("form")
+  .querySelector("#submit")
   .addEventListener("submit", handleSubmit);
